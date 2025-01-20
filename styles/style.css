@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+/* shared style */
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .raleway{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  /* shared style end */
+
+/* navbar design start */
+.navbar{
+    margin: 18px 110px 18px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    gap: 25px;
+}
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+nav ul li{
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+}
+.navlink-1{
+    color: Orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navlink-2{
+  color: skyblue;
+  font-weight: 600;
+  font-size: 15px;
+}
+.navlink-3{
+    color: #05D4DF;
+    font-weight: 600;
+    font-size: 15px;
+}
+.navlink-4{
+  color: #5D58EF;
+  font-weight: 600px;
+  font-size: 15px;
+}
+.contact-btn{
+    background-color: orange;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    padding: 6px 20px 6px 20px;
+    border-radius: 6px;
+}
+.bar{
+    display: none;
+}
+/* responsive navbar */
+@media screen and (max-width:576px) {
+    .school,  .nav-items, .contact-btn{
+        display: none;
+    }
+    
+    .bar{
+        display: block;
+    }
+    .navbar{
+        margin: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-pic{
+        order: 1;
+        margin: 0 10px;
+    }
+    .banner-content{
+        order: 2;
+    }
+}
+/* navbar responsive end */
+
+/* banner design start */
+.banner{
+    margin: 0px 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+}
+.title-colour-1{
+    color: Orange;
+}
+.title-colour-2{
+    color: skyblue;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 2.9rem;
+}
+.banner-description{
+    font-weight: 360;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.banner-pic{
+    /* max-width: 100%;
+    height: auto; */
+}
+
+.banner-btn{
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 10px;
+}
