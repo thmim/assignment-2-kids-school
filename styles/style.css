@@ -209,8 +209,27 @@ ul li a{
  }
  .icon{
     text-align: center;
-    gap: 10px;
+    margin-bottom: 40px;
  }
+ .icon-btn-1{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 25px;
+    background-color: Orange;
+    color: #FFFFFF;
+    border: none;
+ }
+ .icon-btn-2{
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    border-radius: 25px;
+    background-color: Orange;
+    color: #FFFFFF;
+    border: none;
+ }
+ 
     
  
  
@@ -251,5 +270,19 @@ ul li a{
     }
     .banner-content{
         order: 2;
+    }
+    .curriculum-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+    .icon{
+        display: none;
+    }
+    .curriculum-section{
+        
+    }
+    .card{
+        padding: 30px;
+       
     }
 }
