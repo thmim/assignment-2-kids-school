@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-main{
+.curriculum-sectio{
   background-image: url('/assets/bg.png');
 }
 /* shared style */
@@ -228,6 +228,102 @@ ul li a{
     background-color: Orange;
     color: #FFFFFF;
     border: none;
+ }
+ /* standard curriculum section design end*/
+
+ /* our stories section design start */
+ .our-stories{
+    /* margin: 0px 110px 18px 110px; */
+    
+    background-image: url('/assets/bg.png'),
+    linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+ }
+ .stories-heading{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 55px;
+ }
+ .stories-container{
+    margin: 0px 110px 18px 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+   /* text-align: center; */
+ }
+ .story-box{
+    /* border: 2px solid red; */
+    max-width: 540px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    
+ }
+ .image-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    border: 2px solid red;
+    max-width: 604px;
+    
+ }
+ .left-heading{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+ }
+ .story-title{
+   color: #000000;
+   font-weight: bold;
+   font-size: 0.9rem;
+ }
+ .heading-description{
+    color: #666666;
+    font-weight: 550;
+    font-size: 0.8rem;
+ }
+ .left-btn{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: -68px;
+    margin-left: 34px;
+    
+ }
+ /* .stories-card{
+    overflow: visible;
+ } */
+ .story-btn-1, 
+ .story-btn-3,
+ .story-btn-4
+ {
+   background-color: #95B226;
+   color: #FFFFFF;
+   font-weight: 500;
+   font-size: 0.8rem;
+   border: none;
+   border-radius: 20px;
+   padding: 10px 15px;
+   margin-left: 34px;
+   margin-top: -110px;
+
+ }
+ .story-btn-2{
+    background-color: #5D58F0;
+   color: #FFFFFF;
+   font-weight: 500;
+   font-size: 0.8rem;
+   border: none;
+   border-radius: 20px;
+   padding: 10px 15px;
+   margin-left: 34px;
+   margin-top: -110px;
  }
  
     
