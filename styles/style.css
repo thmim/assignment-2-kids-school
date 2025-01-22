@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+/* *{
+    border: 2px dashed red;
+ }
+
+ body{
+    border: 4px dashed green;
+ } */
 .curriculum-sectio{
   background-image: url('/assets/bg.png');
 }
@@ -30,6 +37,10 @@
     align-items: center;
     max-width: 1440px;
     
+}
+.marquee{
+    padding-top: 15px;
+    margin-top: 5px;
 }
 .nav-items{
     display: flex;
@@ -371,21 +382,25 @@ ul li a{
    .about-school{
     margin: 0 140px;
    }
+   .display-flex{
+    display: flex;
+   }
    
  .school-logo{
     
    } 
    .logo-title{
-    position: relative;
+    /* position: relative;
     left: 70px;
-    bottom: 60px;
+    bottom: 60px; */
     color: #FFFFFF;
     font-weight: bold;
     font-size: 1.7rem;
    }
    .logo-details{
-    position: relative;
-    bottom: 40px;
+    /* position: relative;
+    bottom: 40px; */
+    margin-top: 15px;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 0.8rem;
@@ -465,6 +480,7 @@ ul li a{
     }
     .stories-container{
       margin: 10px;
+      
     }
     .story-box{
         display: none;
@@ -494,11 +510,15 @@ ul li a{
     }
     .footer{
          grid-template-columns: repeat(1, 1fr);
-         padding: 20px 20px 20px 10px;
+         /* padding: 20px 20px 20px 10px; */
          margin: 0 !important;
+         /* width: 100%; */
+         /* padding: 0; */
+         padding-left: 10px;
          
     }
     .about-school{
         margin: 10px 15px 0 0;
+        /* margin: 0; */
     }
 }
