@@ -4,7 +4,7 @@
 }
 
 .curriculum-sectio{
-  background-image: url('/assets/bg.png');
+  background-image: url('../assets/bg.png');
 }
 /* shared style */
 .quicksand{
@@ -239,7 +239,7 @@ ul li a{
 
  /* our stories section design start */
  .our-stories{
-    background-image: url('/assets/bg.png'),
+    background-image: url('../assets/bg.png'),
     linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
  }
 
@@ -513,6 +513,7 @@ ul li a{
     .story-btn-4{
         font-weight: 400;
         font-size: 0.6rem;
+        
     }
 
     .footer{
