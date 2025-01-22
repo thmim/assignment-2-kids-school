@@ -362,13 +362,16 @@ ul li a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #01ACFD;
-    margin: 0 auto;
-    /* justify-content: center; */
-    align-items: center;
+    /* margin: 0 auto; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
     padding: 120px 150px 120px 150px;
     
    }
- 
+   .about-school{
+    margin: 0 140px;
+   }
+   
  .school-logo{
     
    } 
@@ -376,10 +379,34 @@ ul li a{
     position: relative;
     left: 70px;
     bottom: 60px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.7rem;
    }
    .logo-details{
     position: relative;
     bottom: 40px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.8rem;
+   }
+   .about-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+   }
+   .about-description{
+    color: #FFFFFF;
+    font-weight: 520;
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+   }
+   .touch-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
    }
    /* footer section design end */
  
@@ -464,5 +491,13 @@ ul li a{
     .story-btn-4{
         font-weight: 400;
         font-size: 0.6rem;
+    }
+    .footer{
+         grid-template-columns: repeat(1, 1fr);
+         padding: 20px 20px 20px 10px;
+         
+    }
+    .about-school{
+        margin: 10px 15px 0 0;
     }
 }
