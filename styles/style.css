@@ -233,8 +233,6 @@ ul li a{
 
  /* our stories section design start */
  .our-stories{
-    /* margin: 0px 110px 18px 110px; */
-    
     background-image: url('/assets/bg.png'),
     linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
  }
@@ -265,7 +263,7 @@ ul li a{
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
     column-gap: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 604px;
     
  }
@@ -273,16 +271,24 @@ ul li a{
     color: #000000;
     font-weight: bold;
     font-size: 1.1rem;
+    margin-top: 15px;
+    padding: 1.5rem;
+ }
+ .box-image{
+    border-radius: 20px 20px 0 0;
  }
  .story-title{
    color: #000000;
    font-weight: bold;
    font-size: 0.9rem;
+   padding: 1rem;
  }
  .heading-description{
     color: #666666;
     font-weight: 550;
     font-size: 0.8rem;
+    margin-top: 15px;
+    padding: 1.5rem;
  }
  .left-btn{
     color: #FFFFFF;
@@ -292,13 +298,19 @@ ul li a{
     border: none;
     border-radius: 20px;
     padding: 10px 15px;
-    margin-top: -68px;
-    margin-left: 34px;
+    position:relative;
+    left: 34px;
+    bottom: 24px;
     
  }
- /* .stories-card{
-    overflow: visible;
- } */
+ .stories-card{
+    border-radius: 16px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+ }
+ .card-pic{
+    border-radius: 16px 16px 0 0;
+ }
  .story-btn-1, 
  .story-btn-3,
  .story-btn-4
@@ -310,8 +322,11 @@ ul li a{
    border: none;
    border-radius: 20px;
    padding: 10px 15px;
-   margin-left: 34px;
-   margin-top: -110px;
+   position: relative;
+   left: 34px;
+    bottom: 24px;
+    max-width: 136px;
+   
 
  }
  .story-btn-2{
@@ -322,11 +337,51 @@ ul li a{
    border: none;
    border-radius: 20px;
    padding: 10px 15px;
-   margin-left: 34px;
-   margin-top: -110px;
+   position: relative;
+   left: 34px;
+    bottom: 24px;
+    max-width: 136px;
  }
- 
+ .view-btn{
+    text-align: center;
+ }
+ .view-all-btn{
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 550px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 0.9rem;
+    padding: 10px 35px;
+    margin-bottom: 40px;
+ }
+ /* our stories section design end */
+
+ /* footer section design start */
+   .footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #01ACFD;
+    margin: 0 auto;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 120px 150px 120px 150px;
     
+   }
+ 
+ .school-logo{
+    
+   } 
+   .logo-title{
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+   }
+   .logo-details{
+    position: relative;
+    bottom: 40px;
+   }
+   /* footer section design end */
  
  
 
@@ -380,5 +435,34 @@ ul li a{
     .card{
         padding: 30px;
        
+    }
+    .stories-container{
+      margin: 10px;
+    }
+    .story-box{
+        display: none;
+    }
+    .image-card{
+        margin: 0px !important; 
+        grid-template-columns: repeat(2, 11fr);
+        gap: 10px;
+    }
+    .stories-card{
+        /* margin:20px 0px; */
+        /* padding: 15px; */
+    }
+    .stories-card img{
+        width: 100%;
+        height: auto;
+    }
+    .our-stories{
+        
+    }
+    .story-btn-2,
+    .story-btn-1, 
+    .story-btn-3,
+    .story-btn-4{
+        font-weight: 400;
+        font-size: 0.6rem;
     }
 }
